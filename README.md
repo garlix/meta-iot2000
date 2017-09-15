@@ -63,6 +63,11 @@ file instead:
 $ kas build meta-iot2000-bsp/kas.yml
 ```
 
+To build the SDK imamge:
+
+```shell
+$ kas build --task populate_sdk meta-iot2000-example/sdk-kas.yml
+```
 
 Docker Build
 ------------
